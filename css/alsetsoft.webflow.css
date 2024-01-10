@@ -1,13 +1,13 @@
 /* Initial state */
 .menu-item-exiting {
-  opacity: 1;
-  transition: opacity 2s ease-out;
+    opacity: 1;
+    transition: opacity 2s ease-out;
 }
 
-/* Final state */
-.menu-item-exiting.active {
-  opacity: 0;
-}
+    /* Final state */
+    .menu-item-exiting.active {
+        opacity: 0;
+    }
 
 :root {
   --maxwidth: 1510px;
@@ -304,10 +304,10 @@
 }
 
 .text-block-5 {
-  font-family: Formular, sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  margin-bottom: 20px;
+    font-family: Formular, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
 }
 
 .div-block-20 {
@@ -373,7 +373,7 @@
 }
 
 .dropdown-toggle {
-  width: 100%;
+  width: 50%;
   border-bottom: 1px solid var(--brandcolor1);
   justify-content: space-between;
   align-items: center;
@@ -507,7 +507,7 @@
 }
 
 .div-block-28 {
-  width: 50%;
+  width: 100%;
   flex-direction: column;
   grid-template-rows: auto auto;
   grid-template-columns: .5fr;
@@ -1771,78 +1771,78 @@
 /* julia */
 /* styles for buttons */
 .text-block-7 {
-  color: var(--brandcolor1);
-  cursor: pointer;
+    color: var(--brandcolor1);
+    cursor: pointer;
 }
 
-.text-block-7.disabled {
-  border: 1px solid grey;
-  color: grey;
-  cursor: auto;
-}
+    .text-block-7.disabled {
+        border: 1px solid grey;
+        color: grey;
+        cursor: auto;
+    }
 
 /* styles for technologies section */
 .my-section {
-  background-image: none;
+    background-image: none;
 }
 
 .my-container {
-  display: flex;
-  height: 406px;
+    display: flex;
+    height: 406px;
 }
 
 .my-box {
-  padding: 30px;
-  flex: 1;
-  box-sizing: border-box;
-  transition: flex 0.3s ease-in-out;
-  border: 1px solid #ddd;
-  cursor: pointer;  
-  border-radius: 12px;
-  border: 1px solid #2718A9;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  background: #E7E8ED;
-  overflow: hidden;
+    padding: 30px;
+    flex: 1;
+    box-sizing: border-box;
+    transition: flex 0.3s ease-in-out;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    border-radius: 12px;
+    border: 1px solid #2718A9;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #E7E8ED;
+    overflow: hidden;
 }
 
-.my-box.expanded {
-  flex: 3;
-}
+    .my-box.expanded {
+        flex: 3;
+    }
 
 .my-box-text {
-  text-align: right;
-  max-width: 485px;
-  color: #2718A9;
-  font-family: Neuemachina, sans-serif;
-  font-size: 48px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 91.3%; 
-  letter-spacing: -2.88px;
-  margin-bottom: 55px;
+    text-align: right;
+    max-width: 485px;
+    color: #2718A9;
+    font-family: Neuemachina, sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 91.3%;
+    letter-spacing: -2.88px;
+    margin-bottom: 55px;
 }
 
 .my-box-name {
-  color: #1D1D1D;
-  font-family: Neuemachina, sans-serif;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 120%;
+    color: #1D1D1D;
+    font-family: Neuemachina, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
 }
 
 .my-box .my-box-text {
-  display: none;
-  transition: opacity 0.3s ease-in-out; 
+    display: none;
+    transition: opacity 0.3s ease-in-out;
 }
 
 .my-box.expanded .my-box-text {
-  display: block;
+    display: block;
 }
 
 .my-btn {
-  cursor: pointer;
+    cursor: pointer;
 }
 
