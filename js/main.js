@@ -1,8 +1,8 @@
 let slides = [
   {
     title: "ALSET formula",
-    name: "",
-    text: "Agility. Initiation. Planning. Design. Implementation. Closure. It is our workflow and how we do our job to produce the best results at the best time for our customers.",
+    name: "Adaptability.",
+    text: "Agile. Waterfall, Lean and etc. We provide services with using different types of methodologies. Depends on customer needs.",
   },
   {
     title: "ALSET formula",
@@ -12,12 +12,12 @@ let slides = [
   {
     title: "ALSET formula",
     name: "Smartness.",
-    text: 'We are gang of smart and experienced developers and always prefer difficult and interesting tasks where we can demonstrate our ability to think quickly and inteligently. Our main qualities are combination of logical thinking and creativity together. Our credo is "Modern Problems Require Modern Solutions".',
+    text: 'We are gang of smart and experienced developers and always prefer difficult and interesting tasks where we can demonstrate our ability to think quickly and inteligently. Our main qualities are combination of logical thinking and creativity together. Our credo is classic: "Modern Problems Require Modern Solutions".',
   },
   {
     title: "ALSET formula",
     name: "Efficacy.",
-    text: "As your trusted partner, we measure our success based on your results Besides making a huge effort to satisfy your needs and create the best product we also always improve ourselves. It means that every day we will be more and more effective in knowing your business and how to help you improve it more.",
+    text: "As your trusted partner, we measure our success based on your results. Besides making a huge effort to satisfy your needs and create the best product we also always improve ourselves. It means that every day we will be more and more effective in knowing your business and how to help you improve it more.",
   },
   {
     title: "ALSET formula",
