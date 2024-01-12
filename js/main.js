@@ -120,6 +120,78 @@ function updateSlide2() {
 
 updateSlide2();
 
+// слайдер 3
+let slides3 = [
+  {
+    img: "images/image4.png",
+    name: "Lyubomir",
+    position: "CEO",
+    text: "CFO Jeff joined ESI in 2003. Before that he spent three years in public accounting and nearly 20 years in finance positions in the healthcare and manufacturing sectors.",
+  },
+  {
+    img: "images/image4.png",
+    name: "Slide2",
+    position: "CEO",
+    text: "Agility. Initiation. Planning. Design. Implementation. Closure. It is our workflow and how we do our job to produce the best results at the best time for our customers.",
+  },
+  {
+    img: "images/image4.png",
+    name: "Slide3",
+    position: "CEO",
+    text: "Agility. Initiation. Planning. Design. Implementation. Closure. It is our workflow and how we do our job to produce the best results at the best time for our customers.",
+  },
+  {
+    img: "images/image4.png",
+    name: "Slide4",
+    position: "CEO",
+    text: "Agility. Initiation. Planning. Design. Implementation. Closure. It is our workflow and how we do our job to produce the best results at the best time for our customers.",
+  },
+  {
+    img: "images/image4.png",
+    name: "Slide5",
+    position: "CEO",
+    text: "Agility. Initiation. Planning. Design. Implementation. Closure. It is our workflow and how we do our job to produce the best results at the best time for our customers.",
+  },
+];
+
+let totalSlides3 = slides3.length;
+let currentSlide3 = 0;
+
+function prevSlide3() {
+  if (currentSlide3 > 0) {
+    currentSlide3--;
+    updateSlide3();
+  }
+}
+
+function nextSlide3() {
+  if (currentSlide3 < totalSlides3 - 1) {
+    currentSlide3++;
+    updateSlide3();
+  }
+}
+
+function updateSlide3() {
+  document.getElementById("slideImg").src = slides3[currentSlide3].img;
+  document.getElementById("slideImg").alt = slides3[currentSlide3].name;
+  document.getElementById("slideName3").innerText = slides3[currentSlide3].name;
+  document.getElementById("slideScript").innerText =
+    slides3[currentSlide3].position;
+  document.getElementById("slideText3").innerText = slides3[currentSlide3].text;
+  document.getElementById("currentSlide3").innerText =
+    currentSlide3 + 1 + "/" + totalSlides3;
+
+  let prevBtn3 = document.getElementById("prevBtn3");
+  prevBtn3.disabled = currentSlide3 === 0;
+  prevBtn3.classList.toggle("disabled", currentSlide3 === 0);
+
+  let nextBtn3 = document.getElementById("nextBtn3");
+  nextBtn3.disabled = currentSlide3 === totalSlides3 - 1;
+  nextBtn3.classList.toggle("disabled", currentSlide3 === totalSlides3 - 1);
+}
+
+updateSlide3();
+
 // секція з технологіями
 
 document.addEventListener("DOMContentLoaded", function () {
