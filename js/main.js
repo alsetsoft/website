@@ -163,3 +163,14 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+
+function getYear() {
+  return (new Date).getFullYear();
+}
+
+function setYear() {
+  let rightReserved = document.getElementById("rightReserved");
+  rightReserved.innerText = `Ⓒ 2021 - ${getYear()} Alsetsoft. All Rights Reserved.`;
+}
+
+setYear();
