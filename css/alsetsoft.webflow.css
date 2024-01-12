@@ -536,8 +536,8 @@
 }
 
 .div-block-19-copy {
-  grid-column-gap: 50px;
-  grid-row-gap: 50px;
+  grid-column-gap: 25px;
+  grid-row-gap: 25px;
   background-color: var(--brandcolor3);
   color: var(--brandcolor2);
   border-radius: 12px;
