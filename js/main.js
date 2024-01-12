@@ -123,26 +123,22 @@ updateSlide2();
 // секція з технологіями
 
 document.addEventListener("DOMContentLoaded", function () {
-  const buttons = document.querySelectorAll(".my-btn");
   const boxes = document.querySelectorAll(".my-box");
   let currentExpandedBox = null;
 
-  function toggleBox(button) {
-    const box = button.closest(".my-box");
-    if (box) {
-      if (box === currentExpandedBox) {
-        box.classList.remove("expanded");
-        currentExpandedBox = null;
-      } else {
-        boxes.forEach((b) => {
-          if (b === box) {
-            b.classList.add("expanded");
-            currentExpandedBox = b;
-          } else {
-            b.classList.remove("expanded");
-          }
-        });
-      }
+  function toggleBox(box) {
+    if (box === currentExpandedBox) {
+      box.classList.remove("expanded");
+      currentExpandedBox = null;
+    } else {
+      boxes.forEach((b) => {
+        if (b === box) {
+          b.classList.add("expanded");
+          currentExpandedBox = b;
+        } else {
+          b.classList.remove("expanded");
+        }
+      });
     }
   }
 
@@ -151,9 +147,8 @@ document.addEventListener("DOMContentLoaded", function () {
     currentExpandedBox = boxes[0];
   }
 
-  buttons.forEach((button) => {
-    button.addEventListener("click", function (event) {
-      event.stopPropagation();
+  boxes.forEach((box) => {
+    box.addEventListener("click", function () {
       toggleBox(this);
     });
   });
