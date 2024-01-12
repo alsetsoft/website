@@ -2,7 +2,7 @@ let slides = [
   {
     title: "ALSET formula",
     name: "Adaptability.",
-    text: "Agile. Waterfall, Lean and etc. We provide services with using different types of methodologies. Depends on customer needs.",
+    text: "Agile, Kanban, Lean and etc. We provide services with using different types of methodologies. Depends on customer needs.",
   },
   {
     title: "ALSET formula",
