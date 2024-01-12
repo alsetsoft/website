@@ -2,7 +2,7 @@ let slides = [
   {
     title: "ALSET formula",
     name: "Adaptability.",
-    text: "Agile. Waterfall, Lean and etc. We provide services with using different types of methodologies. Depends on customer needs.",
+    text: "Agile, Kanban, Lean and etc. We provide services with using different types of methodologies. Depends on customer needs.",
   },
   {
     title: "ALSET formula",
@@ -64,24 +64,34 @@ updateSlide();
 // сладйдер2
 let slides2 = [
   {
-    title: "ALOTO1",
-    text: "Agility. Initiation. Planning. Design. Implementation. Closure. It is our workflow and how we do our job to produce the best results at the best time for our customers.",
+    title: "CoolFlow. Solution for retail merchandising",
+    text: `<b>Business Need:</b> Automating the workflow of merchandisers and controlling refrigerator store placements to enhance product presentation and maximize sales.
+    <br><br><b>Solution:</b> An Innovative IoT Solution includes a Cross-Platform app paired with smart sensors in refrigerators, transmitting data to our web servers. The app displays this data through an intuitive interface, offering real-time monitoring and insightful analytics. 
+    <br><br><b>Value Delivered:</b> Solution provides inventory management in retail, provides real-time stock and product rotation insights, ensures planogram compliance, and reduces merchandising costs, thereby boosting efficiency and profitability in the retail sector.`,
   },
   {
-    title: "ALOTO2",
-    text: "Agility. Initiation. Planning. Design. Implementation. Closure. It is our workflow and how we do our job to produce the best results at the best time for our customers.",
+    title: "Aloto. Online marketplace",
+    text: `<b>Business Need:</b> Local buyers and sellers require a simplified and secure platform that can facilitate seamless peer-to-peer transactions, eliminating the need for unnecessary intermediaries and fostering community engagement.
+    <br><br><b>Solution:</b> The Cross-Platform platform is designed to be user-friendly and accessible, featuring easy listing of items for sale. Additionally, an Admin panel is developed for store owners to manage the platform and address security challenges.
+    <br><br><b>Value Delivered:</b> The platform offers multiple revenue streams including advertisement and premium listings. Users benefit from economic opportunities by conveniently buying or selling goods and services within their community.`,
   },
   {
-    title: "ALOTO3",
-    text: "Agility. Initiation. Planning. Design. Implementation. Closure. It is our workflow and how we do our job to produce the best results at the best time for our customers.",
+    title: "Caregivers Management Solution",
+    text: `<b>Business Need:</b> Streamlining real time caregiver management solution in healthcare is essential for consistent, high-quality patient care, requiring adherence to HIPAA and industry standards.
+    <br><br><b>Solution:</b> System grant caregiver management, with a mobile app for schedule access, task tracking, and compliance updates. Prioritizing HIPAA adherence, it ensures data security and simplifies administration, enhancing healthcare efficiency and quality.
+    <br><br><b>Value Delivered:</b> Delivers substantial value by streamlining the administrative processes related to caregiving. It ensures that caregivers are well-coordinated, compliant with regulations, and have real-time access to essential information. App is used over many caregivers clinics in USA.`,
   },
   {
-    title: "ALOTO4",
-    text: "Agility. Initiation. Planning. Design. Implementation. Closure. It is our workflow and how we do our job to produce the best results at the best time for our customers.",
+    title: "Clean energy certificates trading solution",
+    text: `<b>Business Need:</b> Solution was needed to efficiently manage energy certificate trading, representing renewable energy generation. Current processes lack transparency and are manual, requiring a simplified approach for compliance and market efficiency.
+    <br><br><b>Solution:</b> Created a digital WEB platform for energy certificate trading, automating and streamlining the process. It ensures tracking, validation, and transparency through secure, real time, relational databases, enhancing efficiency and regulatory compliance.
+    <br><br><b>Value Delivered:</b> Solution simplifies and secure energy certificate trading for companies that buy and sell clean energy, it fostering sustainability and trust among stakeholders.`,
   },
   {
-    title: "ALOTO5",
-    text: "Agility. Initiation. Planning. Design. Implementation. Closure. It is our workflow and how we do our job to produce the best results at the best time for our customers.",
+    title: "Marine traveling optimization system",
+    text: `<b>Business Need:</b> Integrated solution that addresses the various pain points experienced by employees during maritime travel. This solution aim to enhance the overall travel experience by focusing on aspects such as real time monitoring, ease of booking, onboard safety, connectivity, entertainment, and personalized services.
+    <br><br><b>Solution:</b> Web platform streamlines real time monitoring, booking, safety, and amenities for maritime travel. It additionally provides customized certificates issuance and features related to video courses.
+    <br><br><b>Value Delivered:</b> This solution enables companies to give more safety for their employees while working at sea, offering connectivity, real-time information, communication and employee well-being.`,
   },
 ];
 
@@ -105,7 +115,7 @@ function nextSlide2() {
 function updateSlide2() {
   document.getElementById("slideTitle2").innerText =
     slides2[currentSlide2].title;
-  document.getElementById("slideText2").innerText = slides2[currentSlide2].text;
+  document.getElementById("slideText2").innerHTML = slides2[currentSlide2].text;
   document.getElementById("currentSlide2").innerText =
     currentSlide2 + 1 + "/" + totalSlides2;
 
@@ -225,3 +235,14 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+
+function getYear() {
+  return (new Date).getFullYear();
+}
+
+function setYear() {
+  let rightReserved = document.getElementById("rightReserved");
+  rightReserved.innerText = `Ⓒ 2021 - ${getYear()} Alsetsoft. All Rights Reserved.`;
+}
+
+setYear();

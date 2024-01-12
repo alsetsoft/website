@@ -1,13 +1,13 @@
 /* Initial state */
 .menu-item-exiting {
-    opacity: 1;
-    transition: opacity 2s ease-out;
+  opacity: 1;
+  transition: opacity 2s ease-out;
 }
 
-    /* Final state */
-    .menu-item-exiting.active {
-        opacity: 0;
-    }
+/* Final state */
+.menu-item-exiting.active {
+  opacity: 0;
+}
 
 :root {
   --maxwidth: 1510px;
@@ -295,7 +295,7 @@
   border-radius: 12px;
   flex-direction: column;
   justify-content: space-between;
-  padding: 20px 32px;
+  padding: 25px 32px;
   font-family: Neuemachina, sans-serif;
   font-size: 20px;
   font-weight: 500;
@@ -304,10 +304,10 @@
 }
 
 .text-block-5 {
-    font-family: Formular, sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    margin-bottom: 20px;
+  font-family: Formular, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 20px;
 }
 
 .div-block-20 {
@@ -536,8 +536,8 @@
 }
 
 .div-block-19-copy {
-  grid-column-gap: 50px;
-  grid-row-gap: 50px;
+  grid-column-gap: 25px;
+  grid-row-gap: 25px;
   background-color: var(--brandcolor3);
   color: var(--brandcolor2);
   border-radius: 12px;
@@ -784,7 +784,6 @@
   width: 100%;
   height: 450px;
   max-width: 1440px;
-  background-image: linear-gradient(rgba(231, 232, 237, .5), rgba(231, 232, 237, .5)), url('../images/bg.png');
   background-position: 0 0, 0 0;
   background-size: auto, auto;
   flex-direction: column;
@@ -856,6 +855,7 @@
 }
 
 .link-block-6 {
+  color: var(--brandcolor2);
   border: 1px solid var(--brandcolor1);
   border-radius: 12px;
   padding: 8px 25px;
@@ -884,7 +884,10 @@
   display: flex;
 }
 
-.text-block-19, .text-block-20, .text-block-21, .text-block-22 {
+.text-block-19,
+.text-block-20,
+.text-block-21,
+.text-block-22 {
   display: none;
 }
 
@@ -1063,7 +1066,8 @@
     padding-top: 0;
   }
 
-  .div-block-10, .div-block-11 {
+  .div-block-10,
+  .div-block-11 {
     width: 100%;
   }
 
@@ -1155,7 +1159,8 @@
     display: flex;
   }
 
-  .section-3, .section-2-copy-copy {
+  .section-3,
+  .section-2-copy-copy {
     padding: 20px 30px;
   }
 
@@ -1192,7 +1197,8 @@
     width: 75%;
   }
 
-  .div-block-39, .div-block-40 {
+  .div-block-39,
+  .div-block-40 {
     width: 50%;
   }
 
@@ -1224,7 +1230,8 @@
     color: var(--brandcolor1);
   }
 
-  .text-block-20, .text-block-21 {
+  .text-block-20,
+  .text-block-21 {
     display: flex;
   }
 
@@ -1443,7 +1450,8 @@
     justify-content: flex-start;
   }
 
-  .section-3, .section-2-copy-copy {
+  .section-3,
+  .section-2-copy-copy {
     padding-left: 10px;
     padding-right: 10px;
   }
@@ -1662,6 +1670,7 @@
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: 'Formular';
   src: url('../fonts/Formular-MediumItalic.ttf') format('truetype');
@@ -1669,6 +1678,7 @@
   font-style: italic;
   font-display: swap;
 }
+
 @font-face {
   font-family: 'Formular';
   src: url('../fonts/Formular-Bold.ttf') format('truetype');
@@ -1676,6 +1686,7 @@
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: 'Formular';
   src: url('../fonts/Formular-Black.ttf') format('truetype');
@@ -1683,6 +1694,7 @@
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: 'Formular';
   src: url('../fonts/Formular-LightItalic.ttf') format('truetype');
@@ -1690,6 +1702,7 @@
   font-style: italic;
   font-display: swap;
 }
+
 @font-face {
   font-family: 'Formular';
   src: url('../fonts/Formular.ttf') format('truetype');
@@ -1697,6 +1710,7 @@
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: 'Formular';
   src: url('../fonts/Formular-Light.ttf') format('truetype');
@@ -1704,6 +1718,7 @@
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: 'Formular';
   src: url('../fonts/Formular-BoldItalic.ttf') format('truetype');
@@ -1711,6 +1726,7 @@
   font-style: italic;
   font-display: swap;
 }
+
 @font-face {
   font-family: 'Formular';
   src: url('../fonts/Formular-BlackItalic.ttf') format('truetype');
@@ -1718,6 +1734,7 @@
   font-style: italic;
   font-display: swap;
 }
+
 @font-face {
   font-family: 'Formular';
   src: url('../fonts/Formular-Italic.ttf') format('truetype');
@@ -1725,6 +1742,7 @@
   font-style: italic;
   font-display: swap;
 }
+
 @font-face {
   font-family: 'Neuemachina';
   src: url('../fonts/NeueMachina-Ultralight.ttf') format('truetype');
@@ -1732,6 +1750,7 @@
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: 'Neuemachina';
   src: url('../fonts/NeueMachina-Black.ttf') format('truetype');
@@ -1739,6 +1758,7 @@
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: 'Neuemachina';
   src: url('../fonts/NeueMachina-Regular.ttf') format('truetype');
@@ -1746,6 +1766,7 @@
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: 'Neuemachina';
   src: url('../fonts/NeueMachina-Medium.ttf') format('truetype');
@@ -1753,6 +1774,7 @@
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: 'Neuemachina';
   src: url('../fonts/NeueMachina-Bold.ttf') format('truetype'), url('../fonts/NeueMachina-Ultrabold.ttf') format('truetype');
@@ -1760,6 +1782,7 @@
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: 'Neuemachina';
   src: url('../fonts/NeueMachina-Light.ttf') format('truetype');
@@ -1771,15 +1794,15 @@
 /* julia */
 /* styles for buttons */
 .text-block-7 {
-    color: var(--brandcolor1);
-    cursor: pointer;
+  color: var(--brandcolor1);
+  cursor: pointer;
 }
 
-    .text-block-7.disabled {
-        border: 1px solid grey;
-        color: grey;
-        cursor: auto;
-    }
+.text-block-7.disabled {
+  border: 1px solid grey;
+  color: grey;
+  cursor: auto;
+}
 
 /* styles for technologies section */
 .my-section {
@@ -1790,64 +1813,63 @@
 }
 
 .my-container {
-    display: flex;
-    flex-wrap: wrap;
-    height: 406px;
+  display: flex;
+  height: 406px;
 }
 
 .my-box {
-    padding: 30px;
-    flex: 1;
-    box-sizing: border-box;
-    transition: flex 0.3s ease-in-out;
-    border: 1px solid #ddd;
-    cursor: pointer;
-    border-radius: 12px;
-    border: 1px solid #2718A9;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    background: #E7E8ED;
-    overflow: hidden;
+  padding: 30px;
+  flex: 1;
+  box-sizing: border-box;
+  transition: flex 0.3s ease-in-out;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  border-radius: 12px;
+  border: 1px solid #2718A9;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #E7E8ED;
+  overflow: hidden;
 }
 
-    .my-box.expanded {
-        flex: 3;
-    }
+.my-box.expanded {
+  flex: 3;
+}
 
 .my-box-text {
-    text-align: right;
-    max-width: 485px;
-    color: #2718A9;
-    font-family: Neuemachina, sans-serif;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 91.3%;
-    letter-spacing: -2.88px;
-    margin-bottom: 55px;
+  text-align: right;
+  max-width: 485px;
+  color: #2718A9;
+  font-family: Neuemachina, sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 91.3%;
+  letter-spacing: -2.88px;
+  margin-bottom: 55px;
 }
 
 .my-box-name {
-    color: #1D1D1D;
-    font-family: Neuemachina, sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 120%;
+  color: #1D1D1D;
+  font-family: Neuemachina, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
 }
 
 .my-box .my-box-text {
-    display: none;
-    transition: opacity 0.3s ease-in-out;
+  display: none;
+  transition: opacity 0.3s ease-in-out;
 }
 
 .my-box.expanded .my-box-text {
-    display: block;
+  display: block;
 }
 
 .my-btn {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .my-div-block-20 {
@@ -1882,7 +1904,7 @@
 
   .my-box-text {
     font-size: 28px;
-    line-height: 114.3%; 
+    line-height: 114.3%;
     margin-bottom: 14px;
   }
 
