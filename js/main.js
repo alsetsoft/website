@@ -134,14 +134,19 @@ updateSlide2();
 let slides3 = [
   {
     img: "images/image4.png",
-    name: "Lyubomir",
+    name: `<a href="https://www.linkedin.com/company/alsetsoft">Liubomyr</a>`,
     position: "CEO",
-    text: "CFO Jeff joined ESI in 2003. Before that he spent three years in public accounting and nearly 20 years in finance positions in the healthcare and manufacturing sectors.",
+    text: `Started career in 2016 as a full-stack software engineer, and in 2023, took the
+    leadership helm at Alsetsoft. <br>With a keen interest in both technology and business development, he
+    assists
+    customers in envisioning and planning comprehensive strategies to enhance their business through
+    innovative technologies. <br>Collaborating closely with the Alsetsoft team, he turns these visions into
+    reality, delivering tangible improvements and value to clients.`,
   },
   {
     img: "images/image4.png",
-    name: "Slide2",
-    position: "CEO",
+    name: "Oleh",
+    position: "CTO",
     text: "Agility. Initiation. Planning. Design. Implementation. Closure. It is our workflow and how we do our job to produce the best results at the best time for our customers.",
   },
   {
@@ -184,10 +189,10 @@ function nextSlide3() {
 function updateSlide3() {
   document.getElementById("slideImg").src = slides3[currentSlide3].img;
   document.getElementById("slideImg").alt = slides3[currentSlide3].name;
-  document.getElementById("slideName3").innerText = slides3[currentSlide3].name;
-  document.getElementById("slideScript").innerText =
+  document.getElementById("slideName3").innerHTML = slides3[currentSlide3].name;
+  document.getElementById("slideScript").innerHTML =
     slides3[currentSlide3].position;
-  document.getElementById("slideText3").innerText = slides3[currentSlide3].text;
+  document.getElementById("slideText3").innerHTML = slides3[currentSlide3].text;
   document.getElementById("currentSlide3").innerText =
     currentSlide3 + 1 + "/" + totalSlides3;
 
