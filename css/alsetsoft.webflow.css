@@ -111,7 +111,6 @@
   max-width: var(--maxwidth);
   grid-column-gap: 80px;
   grid-row-gap: 80px;
-  background-image: linear-gradient(rgba(231, 232, 237, .49), rgba(231, 232, 237, .49)), url('../images/bg.png');
   background-position: 0 0, 0 0;
   background-size: auto, auto;
   flex-direction: column;
@@ -181,6 +180,9 @@
 .text-block-3 {
   align-items: flex-end;
   display: flex;
+  font-family: Formular;
+  font-weight: 300;
+  font-size: 16;
 }
 
 .div-block-7 {
@@ -500,6 +502,7 @@
 
 .image-7 {
   height: auto;
+  border-radius: 7px;
 }
 
 .div-block-27 {
@@ -537,7 +540,6 @@
 
 .div-block-19-copy {
   grid-column-gap: 25px;
-  grid-row-gap: 25px;
   background-color: var(--brandcolor3);
   color: var(--brandcolor2);
   border-radius: 12px;
@@ -548,6 +550,7 @@
   font-weight: 500;
   line-height: 120%;
   display: flex;
+  min-height: 400px;
 }
 
 .div-block-29 {
