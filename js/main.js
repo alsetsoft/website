@@ -157,22 +157,25 @@ let slides3 = [
   },
   {
     img: "images/Team.png",
-    name: "Slide3",
-    position: "CEO",
-    text: "Agility. Initiation. Planning. Design. Implementation. Closure. It is our workflow and how we do our job to produce the best results at the best time for our customers.",
+    name: "Oles",
+    position: "Design Manager",
+    text: `Oles, a Design Manager, is known for his exceptional leadership in the creative field.
+    His expertise in design is matched by his ability to manage complex projects and guide his team toward innovative solutions.
+    He excels in aligning design strategies with business objectives, ensuring that his team's work not only captivates visually but also supports the customer's overall vision.
+    Oles's role is a blend of creativity, mentorship, and strategic planning, making him a key asset in any design-driven solutions.`,
   },
-  {
-    img: "images/Team.png",
-    name: "Slide4",
-    position: "CEO",
-    text: "Agility. Initiation. Planning. Design. Implementation. Closure. It is our workflow and how we do our job to produce the best results at the best time for our customers.",
-  },
-  {
-    img: "images/Team.png",
-    name: "Slide5",
-    position: "CEO",
-    text: "Agility. Initiation. Planning. Design. Implementation. Closure. It is our workflow and how we do our job to produce the best results at the best time for our customers.",
-  },
+  // {
+  //   img: "images/Team.png",
+  //   name: "Slide4",
+  //   position: "CEO",
+  //   text: "Agility. Initiation. Planning. Design. Implementation. Closure. It is our workflow and how we do our job to produce the best results at the best time for our customers.",
+  // },
+  // {
+  //   img: "images/Team.png",
+  //   name: "Slide5",
+  //   position: "CEO",
+  //   text: "Agility. Initiation. Planning. Design. Implementation. Closure. It is our workflow and how we do our job to produce the best results at the best time for our customers.",
+  // },
 ];
 
 let totalSlides3 = slides3.length;
