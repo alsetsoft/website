@@ -162,7 +162,7 @@ let slides3 = [
     text: `Oles, a Design Manager, is known for his exceptional leadership in the creative field.
     His expertise in design is matched by his ability to manage complex projects and guide his team toward innovative solutions.
     He excels in aligning design strategies with business objectives, ensuring that his team's work not only captivates visually but also supports the customer's overall vision.
-    Oles's role is a blend of creativity, mentorship, and strategic planning, making him a key asset in any design-driven solutions.`,
+    Oles' role is a blend of creativity, mentorship, and strategic planning, making him a key asset in any design-driven solutions.`,
   },
   // {
   //   img: "images/Team.png",
