@@ -131,8 +131,9 @@
   color: #1d1d1d;
   font-family: Neuemachina, sans-serif;
   font-size: 96px;
-  line-height: 120%;
+  line-height: 110%;
   position: absolute;
+  letter-spacing: -2px;
 }
 
 .text-span {
@@ -191,7 +192,7 @@
   align-items: flex-start;
   font-family: Formular, sans-serif;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 120%;
   display: flex;
 }
@@ -241,7 +242,7 @@
 
 .div-block-13 {
   justify-content: space-between;
-  font-weight: 500;
+  font-weight: 300;
   display: flex;
 }
 
@@ -286,7 +287,7 @@
 .div-block-18 {
   font-family: Neuemachina, sans-serif;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 300;
 }
 
 .div-block-19 {
@@ -308,8 +309,7 @@
 .text-block-5 {
   font-family: Formular, sans-serif;
   font-size: 16px;
-  font-weight: 400;
-  margin-bottom: 20px;
+  font-weight: 300;
 }
 
 .div-block-20 {
@@ -322,6 +322,7 @@
 .div-block-21 {
   align-items: flex-end;
   display: flex;
+  margin-top: 40px;
 }
 
 .text-block-6 {
@@ -490,14 +491,16 @@
   font-family: Neuemachina, sans-serif;
   font-weight: 500;
   line-height: 120%;
+  font-size: 16px;
 }
 
 .text-block-12 {
   color: var(--brandcolor2);
   font-family: Formular, sans-serif;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 120%;
+  margin-top: 10px;
 }
 
 .image-7 {
@@ -528,6 +531,8 @@
   width: 100%;
   justify-content: flex-start;
   display: flex;
+  font-family: Neuemachina, sans-serif;
+  font-weight: 500;
 }
 
 .div-block-21-copy {
@@ -622,18 +627,18 @@
 .text-block-13-copy {
   text-transform: none;
   align-items: stretch;
-  font-size: 48px;
+  font-size: 20px;
   line-height: 120%;
   display: flex;
   font-weight: 300;
 }
 
 .superscript {
-  padding-top: 10px;
   font-family: Neuemachina, sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 120%;
+  opacity: 60%;
 }
 
 .div-block-33 {
@@ -792,7 +797,7 @@
   background-size: auto, auto;
   flex-direction: column;
   align-items: center;
-  padding: 30px 60px 180px;
+  padding: 30px 60px 10px;
   display: flex;
 }
 
@@ -883,7 +888,7 @@
 
 .div-block-43 {
   width: 100%;
-  height: 300px;
+  height: 380px;
   flex-direction: row;
   display: flex;
 }
@@ -1165,7 +1170,7 @@
 
   .section-3,
   .section-2-copy-copy {
-    padding: 20px 30px;
+    padding: 20px 10px;
   }
 
   .div-block-30-copy {
@@ -1800,6 +1805,7 @@
 .text-block-7 {
   color: var(--brandcolor1);
   cursor: pointer;
+  user-select: none;
 }
 
 .text-block-7.disabled {
@@ -1882,6 +1888,27 @@
 }
 
 @media screen and (max-width: 600px) {
+  .my-section {
+    padding: 99px 10px 0px 10px;
+
+  }
+
+  #slideText2 {
+    min-height: 420px;
+  }
+
+  .text-block-13 {
+    min-height: 50px;
+  }
+
+  .div-block-19-copy {
+    min-height: 480px;
+  }
+
+  .div-block-19 {
+    min-height: 480px;
+  }
+
   .my-container {
     flex-direction: column;
     margin-bottom: 131px;

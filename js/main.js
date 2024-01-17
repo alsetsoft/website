@@ -64,30 +64,35 @@ updateSlide();
 // сладйдер2
 let slides2 = [
   {
+    image: "images/case1.png",
     title: "CoolFlow. Solution for retail merchandising",
     text: `<b style="font-weight: 500;">Business Need:</b> Automating the workflow of merchandisers and controlling refrigerator store placements to enhance product presentation and maximize sales.
     <br><b style="font-weight: 500;">Solution:</b> An Innovative IoT Solution includes a Cross-Platform app paired with smart sensors in refrigerators, transmitting data to our web servers. The app displays this data through an intuitive interface, offering real-time monitoring and insightful analytics. 
     <br><b style="font-weight: 500;">Value Delivered:</b> Solution provides inventory management in retail, provides real-time stock and product rotation insights, ensures planogram compliance, and reduces merchandising costs, thereby boosting efficiency and profitability in the retail sector.`,
   },
   {
+    image: "images/case2.png",
     title: "Aloto. Online marketplace",
     text: `<b style="font-weight: 500;">Business Need:</b> Local buyers and sellers require a simplified and secure platform that can facilitate seamless peer-to-peer transactions, eliminating the need for unnecessary intermediaries and fostering community engagement.
     <br><b style="font-weight: 500;">Solution:</b> The Cross-Platform platform is designed to be user-friendly and accessible, featuring easy listing of items for sale. Additionally, an Admin panel is developed for store owners to manage the platform and address security challenges.
     <br><b style="font-weight: 500;">Value Delivered:</b> The platform offers multiple revenue streams including advertisement and premium listings. Users benefit from economic opportunities by conveniently buying or selling goods and services within their community.`,
   },
   {
+    image: "images/case3.png",
     title: "Caregivers Management Solution",
     text: `<b style="font-weight: 500;">Business Need:</b> Streamlining real time caregiver management solution in healthcare is essential for consistent, high-quality patient care, requiring adherence to HIPAA and industry standards.
     <br><b style="font-weight: 500;">Solution:</b> System grant caregiver management, with a mobile app for schedule access, task tracking, and compliance updates. Prioritizing HIPAA adherence, it ensures data security and simplifies administration, enhancing healthcare efficiency and quality.
     <br><b style="font-weight: 500;">Value Delivered:</b> Delivers substantial value by streamlining the administrative processes related to caregiving. It ensures that caregivers are well-coordinated, compliant with regulations, and have real-time access to essential information. App is used over many caregivers clinics in USA.`,
   },
   {
+    image: "images/case4.png",
     title: "Clean energy certificates trading solution",
     text: `<b style="font-weight: 500;">Business Need:</b> Solution was needed to efficiently manage energy certificate trading, representing renewable energy generation. Current processes lack transparency and are manual, requiring a simplified approach for compliance and market efficiency.
     <br><b style="font-weight: 500;">Solution:</b> Created a digital WEB platform for energy certificate trading, automating and streamlining the process. It ensures tracking, validation, and transparency through secure, real time, relational databases, enhancing efficiency and regulatory compliance.
     <br><b style="font-weight: 500;">Value Delivered:</b> Solution simplifies and secure energy certificate trading for companies that buy and sell clean energy, it fostering sustainability and trust among stakeholders.`,
   },
   {
+    image: "images/case5.png",
     title: "Marine traveling optimization system",
     text: `<b style="font-weight: 500;">Business Need:</b> Integrated solution that addresses the various pain points experienced by employees during maritime travel. This solution aim to enhance the overall travel experience by focusing on aspects such as real time monitoring, ease of booking, onboard safety, connectivity, entertainment, and personalized services.
     <br><b style="font-weight: 500;">Solution:</b> Web platform streamlines real time monitoring, booking, safety, and amenities for maritime travel. It additionally provides customized certificates issuance and features related to video courses.
@@ -113,6 +118,7 @@ function nextSlide2() {
 }
 
 function updateSlide2() {
+  document.getElementById("slideImg2").src = slides2[currentSlide2].image;
   document.getElementById("slideTitle2").innerText =
     slides2[currentSlide2].title;
   document.getElementById("slideText2").innerHTML = slides2[currentSlide2].text;
@@ -134,21 +140,18 @@ updateSlide2();
 let slides3 = [
   {
     img: "images/Team.png",
-    name: `Liubomyr`,
+    name: `LIUBOMYR`,
     position: "CEO",
     text: `Started career in 2016 as a full-stack software engineer, and in 2023, took the
     leadership helm at Alsetsoft. <br>With a keen interest in both technology and business development, he
     assists
     customers in envisioning and planning comprehensive strategies to enhance their business through
     innovative technologies. <br>Collaborating closely with the Alsetsoft team, he turns these visions into
-    reality, delivering tangible improvements and value to clients.
-    <a href="https://www.linkedin.com/in/liubomyr-liubchynskyi-a50111144" class="link-block-6-copy w-inline-block">
-    <div>in</div>
-    </a>`,
+    reality, delivering tangible improvements and value to clients.`,
   },
   {
     img: "images/Team.png",
-    name: "Oleh",
+    name: "OLEH",
     position: "CTO",
     text: `Oleh  is a seasoned professional with a comprehensive background in web and mobile development, primarily using Microsoft technologies.
     His expertise extends to development cloud solutions, managing large-scale projects, and implementing various types of architectures.
@@ -157,7 +160,7 @@ let slides3 = [
   },
   {
     img: "images/Team.png",
-    name: "Oles",
+    name: "OLES",
     position: "Design Manager",
     text: `Oles, a Design Manager, is known for his exceptional leadership in the creative field.
     His expertise in design is matched by his ability to manage complex projects and guide his team toward innovative solutions.
