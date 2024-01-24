@@ -1816,10 +1816,10 @@
 
 /* styles for technologies section */
 .my-section {
-    background-image: none;
-    width: 100%;
-    max-width: 1440px;
-    padding: 99px 60px 60px 60px;
+  background-image: none;
+  width: 100%;
+  max-width: 1440px;
+  padding: 99px 60px 60px 60px;
 }
 
 .my-container {
@@ -1931,7 +1931,7 @@
   .my-box-name {
     font-size: 20px;
     line-height: 149.3%;
-}
+  }
 
   .my-box-text {
     font-size: 28px;
@@ -1941,10 +1941,17 @@
 
   .btn-icon {
     width: 50px;
+    &.right {
+      float: right;
+    }
   }
 
   .my-btn {
-    align-self: center; 
+    align-self: center;
+  }
+
 }
-  
+
+.btn-icon {
+  width: 50px;
 }
